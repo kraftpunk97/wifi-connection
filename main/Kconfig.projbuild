@@ -1,0 +1,12 @@
+menu "WIFI Configuration"
+    config WIFI_SSID
+            string "WiFi SSID"
+            default ""
+            help
+                Enter the SSID of the WiFi access point that the system will connect to.
+    config WIFI_PASSWORD
+            string "WiFi Password"
+            default ""
+            help
+                Enter the password to the WiFi access point for the WiFi SSID.
+endmenu
